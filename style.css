@@ -1,0 +1,92 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+.main {
+  flex: 1;
+}
+
+h1 {
+  font-size: 3.5rem;
+  color:whitesmoke;
+  text-align:center
+}
+h2 {
+  color:blanchedalmond;
+}
+
+p {
+  color:beige;
+}
+.footer {
+  text-align: right;
+  color: coral;
+}
+
+@media (max-width: 680px) {
+  .logo {
+    width: 100px;
+  }
+}
+
+.card{
+  width: 45%;
+}
+
+.left {
+  width:50%;
+  height:50%;
+  float: left;
+}
+  
+.construction{
+  float: right;
+  text-align: justify;
+}
+
+.automobiles{
+  color:mediumturquoise;
+}
+
+  
+.tile-image {
+  height: 200px;
+  float: left;
+  margin-right: 50px;
+}
+
+.tile-image2 {
+  height: 200px;
+  float: right;
+  margin-right: 50px;
+  text-align: center;
+
+}
+
+
+.card {
+  width: 100%;
+  display: block;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+
+.card img {
+  margin-bottom: 10px;
+  width: 100%;
+  display: inline;
+  object-fit: cover;
+}
+
+.card-title2{
+  text-align: end;
+}
+
+.construction > p{
+  text-align:right;
+  
+}
